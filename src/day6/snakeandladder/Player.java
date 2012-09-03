@@ -7,10 +7,10 @@ public class Player {
 	/**
 	 * @param currentPosition
 	 */
-	public Player(Position currentPosition, String playeName) {
+	public Player(Position currentPosition, String playerName) {
 		super();
 		this.currentPosition = currentPosition;
-		this.name = playeName;
+		this.name = playerName;
 	}
 
 	/**

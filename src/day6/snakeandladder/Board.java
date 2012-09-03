@@ -10,17 +10,16 @@ import java.util.Scanner;
 public class Board {
 	private static Board board;
 	final private int LAST = 100;
-	private boolean automated = true;
+	private boolean automated;
 	private Player player1;
 	private Player player2;
 	Snake[] snakes;
 	Ladder[] ladders;
-	private Scanner sc;
 
-	
 	private Board() throws Exception {
 		player1 = new Player(new Position(0), "Player1");
 		player2 = new Player(new Position(0), "Player2");
+		automated = true;
 	}
 
 	public static synchronized Board getInstance() throws Exception {
@@ -42,7 +41,7 @@ public class Board {
 		int[] ladderBottomValues = { 8, 66, 42, 53 };
 
 		try {
-			String inFileName = "D:\\workspace\\Learning\\Data\\snakeNladdder.txt";
+			String inFileName = "D:\\TavantTraining\\workspace\\Learning\\Data\\snakeNladdder.txt";
 			ArrayList<int[]> snakeLadderArrays = readSnakeLadderFile(inFileName);
 			snakes = createSnakes(snakeLadderArrays.get(0), snakeLadderArrays
 					.get(1));
@@ -131,10 +130,9 @@ public class Board {
 		int currentPositionValue, nextPositionValue;
 		int diceValue;
 		int snakeIndex, ladderIndex;
-
 		// First player's turn
 		System.out.print(player.getName() + "'s turn");
-		sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
 		if (!automated) {
 			while (!sc.nextLine().equals(""))
@@ -186,7 +184,7 @@ public class Board {
 				.println("Please, Press Enter on your turn\nThe player who gets 6 on Dice first, will move first:\n");
 		while (!firstToPlayDecided) {
 			System.out.print(firstToPlay.getName() + "'s turn:");
-//			Scanner sc = new Scanner(System.in);
+			Scanner sc = new Scanner(System.in);
 			if (!automated) {
 				while (!sc.nextLine().equals(""))
 					; // Wait for user to enter
@@ -224,31 +222,26 @@ public class Board {
 		createBoard();
 
 		// Decide if game to be automated or not
-//		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out
 				.println("Press Enter if you want game to be automated\nOr press any other key and Enter for manual game:\n");
 		if (!sc.nextLine().equals("")) {
 			automated = false;
 		}
-
+		
+		
 		Player[] players = decideWhoMovesFirst();
 		int currentPositionValue;
 		System.out.println("");
 		while (true) {
-			// First player's turn
-			currentPositionValue = playTurn(players[0]).getCurrentPosition()
-					.getPositionNumber();
-			if (currentPositionValue == LAST) {
-				System.out.println(players[0].getName() + " Wins the game!!!");
-				break;
-			}
+			for (int i = 0; i < players.length; i++) {
+				currentPositionValue = playTurn(players[i]).getCurrentPosition()
+						.getPositionNumber();
+				if (currentPositionValue == LAST) {
+					System.out.println(players[i].getName() + " Wins the game!!!");
+					break;
+				}
 
-			// Second player's turn
-			currentPositionValue = playTurn(players[1]).getCurrentPosition()
-					.getPositionNumber();
-			if (currentPositionValue == LAST) {
-				System.out.println(players[1].getName() + " Wins the game!!!");
-				break;
 			}
 		}
 	}

@@ -15,7 +15,6 @@ public class MyBoard {
 	private Player player2;
 	Snake[] snakes;
 	Ladder[] ladders;
-	private Scanner sc;
 
 	private MyBoard() throws Exception {
 		player1 = new Player(new Position(0), "Player1");
@@ -133,9 +132,9 @@ public class MyBoard {
 
 		// First player's turn
 		System.out.print(player.getName() + "'s turn");
-		sc = new Scanner(System.in);
-
+		
 		if (!automated) {
+			Scanner sc = new Scanner(System.in);
 			while (!sc.nextLine().equals(""))
 				; // Wait for user to enter
 		}
@@ -185,7 +184,7 @@ public class MyBoard {
 				.println("Please, Press Enter on your turn\nThe player who gets 6 on Dice first, will move first:\n");
 		while (!firstToPlayDecided) {
 			System.out.print(firstToPlay.getName() + "'s turn:");
-//			Scanner sc = new Scanner(System.in);
+			Scanner sc = new Scanner(System.in);
 			if (!automated) {
 				while (!sc.nextLine().equals(""))
 					; // Wait for user to enter
@@ -223,7 +222,7 @@ public class MyBoard {
 		createBoard();
 
 		// Decide if game to be automated or not
-//		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out
 				.println("Press Enter if you want game to be automated\nOr press any other key and Enter for manual game:\n");
 		if (!sc.nextLine().equals("")) {
