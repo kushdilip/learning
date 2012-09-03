@@ -17,6 +17,7 @@ public class Board {
 	Ladder[] ladders;
 	private Scanner sc;
 
+	
 	private Board() throws Exception {
 		player1 = new Player(new Position(0), "Player1");
 		player2 = new Player(new Position(0), "Player2");
