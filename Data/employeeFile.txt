@@ -1,5 +1,0 @@
-K0104,Dilip,SE,35000
-K0099,Mohit,SE,36000
-
-K0124,Abhishek,SE,35500
-k0091,abhijit,SE,34000
