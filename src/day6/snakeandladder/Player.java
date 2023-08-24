@@ -3,7 +3,7 @@ package day6.snakeandladder;
 public class Player {
 	private Position currentPosition;
 	private String name;
-	
+	private static int numberOfPlayers;
 	/**
 	 * @param currentPosition
 	 */
@@ -11,6 +11,7 @@ public class Player {
 		super();
 		this.currentPosition = currentPosition;
 		this.name = playerName;
+		numberOfPlayers++;
 	}
 
 	/**
