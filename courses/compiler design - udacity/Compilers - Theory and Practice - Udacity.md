@@ -1,0 +1,1 @@
+- [courseNotes-Lesson1](https://s3.amazonaws.com/content.udacity-data.com/courses/gt-cs6241/courseNotes/courseNotes-Lesson1.pdf)
