@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "badf82d41492fa99",
+        "id": "0ce31465cd8148e9",
         "type": "tabs",
         "children": [
           {
-            "id": "d40e2d37326bcb51",
+            "id": "30ec46a31d86961d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "courses/COURSES.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "courses/COURSES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "courses/COURSES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "courses/COURSES.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d40e2d37326bcb51",
+  "active": "b00bddd9b810cccd",
   "lastOpenFiles": [
-    "courses/online-ms-cs.md",
     "courses/COURSES.md",
+    "courses/online-ms-cs.md",
     "courses/computational structures - MITOCW/computational structures - MITOCW.md",
     "courses/computational structures - MITOCW",
     "courses/compilers - stanford edx/Compilers - Standford Edx.md",
