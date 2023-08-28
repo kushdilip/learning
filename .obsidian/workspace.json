@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "blogging/my-blogs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "blogging/my-blogs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "blogging/my-blogs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "blogging/my-blogs.md"
               }
             }
           }
@@ -148,6 +148,15 @@
   },
   "active": "30ec46a31d86961d",
   "lastOpenFiles": [
+    "books/books-reading.md",
+    "blogging/my-blogs.md",
+    "books",
+    "physics/astrophysics.md",
+    "blogging",
+    "README.md",
+    "physics/astrophysics/Untitled.md",
+    "physics/astrophysics",
+    "physics",
     "courses/COURSES.md",
     "courses/online-ms-cs.md",
     "courses/computational structures - MITOCW/computational structures - MITOCW.md",
@@ -163,9 +172,6 @@
     "computational structures - MITOCW/computational structures - MITOCW.md",
     "computational structures - MITOCW",
     "compilers - stanford edx/Compilers - Standford Edx.md",
-    "compilers - stanford edx",
-    "compiler design - udacity/Compilers - Theory and Practice - Udacity.md",
-    "compiler design - udacity",
-    "README.md"
+    "compiler design - udacity/Compilers - Theory and Practice - Udacity.md"
   ]
 }
