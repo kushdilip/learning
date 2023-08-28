@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogging/my-blogs.md",
+                "file": "books/book summaries.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogging/my-blogs.md",
+                "file": "books/book summaries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogging/my-blogs.md",
+                "file": "books/book summaries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogging/my-blogs.md"
+                "file": "books/book summaries.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   "active": "30ec46a31d86961d",
   "lastOpenFiles": [
     "books/books-reading.md",
+    "books/book summaries.md",
+    "books/Untitled",
     "blogging/my-blogs.md",
     "books",
     "physics/astrophysics.md",
@@ -170,7 +172,6 @@
     "online-ms-cs.md",
     "COURSES.md",
     "computational structures - MITOCW/computational structures - MITOCW.md",
-    "computational structures - MITOCW",
     "compilers - stanford edx/Compilers - Standford Edx.md",
     "compiler design - udacity/Compilers - Theory and Practice - Udacity.md"
   ]

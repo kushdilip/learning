@@ -1,0 +1,1 @@
+https://www.getabstract.com/en/summary/the-ai-factor/47461
