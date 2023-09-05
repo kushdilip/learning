@@ -23,9 +23,11 @@
             "id": "0cbc695fdf60b6a9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.5"
+                "file": "tools/Obsidian.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/book summaries.md",
+                "file": "tools/Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/book summaries.md",
+                "file": "tools/Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/book summaries.md"
+                "file": "tools/Obsidian.md"
               }
             }
           }
@@ -159,6 +161,8 @@
   },
   "active": "0cbc695fdf60b6a9",
   "lastOpenFiles": [
+    "tools/Obsidian.md",
+    "tools",
     "books/books-reading.md",
     "books/book summaries.md",
     "books/Untitled",
@@ -179,7 +183,6 @@
     "courses/compiler design - udacity/Compilers - Theory and Practice - Udacity.md",
     "courses/compiler design - udacity",
     "courses",
-    "untitled folder",
     "online-ms-cs.md",
     "COURSES.md",
     "computational structures - MITOCW/computational structures - MITOCW.md",
