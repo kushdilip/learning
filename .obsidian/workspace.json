@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/Obsidian.md",
+                "file": "_journal/2023-W39.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,12 +93,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "1579b513ad68a519",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
             "id": "d9c711b8e2426c70",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/Obsidian.md",
+                "file": "_journal/2023-W39.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/Obsidian.md",
+                "file": "_journal/2023-W39.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +146,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/Obsidian.md"
+                "file": "_journal/2023-W39.md"
+              }
+            }
+          },
+          {
+            "id": "1afd722ce439d1fe",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -146,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 445.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,11 +173,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "0cbc695fdf60b6a9",
   "lastOpenFiles": [
+    "WebDev/2023-09-29-Proxy-Reflect-APIs.md",
+    "_journal/2023-W39.md",
+    "_journal",
+    "Untitled.md",
+    "WebDev",
     "tools/Obsidian.md",
     "tools",
     "books/books-reading.md",
@@ -181,8 +204,6 @@
     "courses/compilers - stanford edx/Compilers - Standford Edx.md",
     "courses/compilers - stanford edx",
     "courses/compiler design - udacity/Compilers - Theory and Practice - Udacity.md",
-    "courses/compiler design - udacity",
-    "courses",
     "online-ms-cs.md",
     "COURSES.md",
     "computational structures - MITOCW/computational structures - MITOCW.md",
