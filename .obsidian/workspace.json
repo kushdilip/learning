@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "35e84b3c1f1baa8a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,7 +187,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "0cbc695fdf60b6a9",
+  "active": "35e84b3c1f1baa8a",
   "lastOpenFiles": [
     "blog/2023-10-02 Important of sleep.md",
     "blog/Readme.md",
