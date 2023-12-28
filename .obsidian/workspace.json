@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0ce31465cd8148e9",
+        "id": "36afa6000b4d6dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "30ec46a31d86961d",
+            "id": "4eec3a6f5ffe79c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/book summaries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cbc695fdf60b6a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_journal/2023-W39.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35e84b3c1f1baa8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -189,11 +156,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "35e84b3c1f1baa8a",
+  "active": "4eec3a6f5ffe79c5",
   "lastOpenFiles": [
+    "books/book summaries.md",
+    "_journal/2023-W39.md",
+    "README.md",
     "blog/2023-10-02 Important of sleep.md",
     "blog/Readme.md",
-    "_journal/2023-W39.md",
     "WebDev/2023-09-29-Proxy-Reflect-APIs.md",
     "_journal",
     "Untitled.md",
@@ -201,12 +170,10 @@
     "tools/Obsidian.md",
     "tools",
     "books/books-reading.md",
-    "books/book summaries.md",
     "books/Untitled",
     "books",
     "physics/astrophysics.md",
     "blog",
-    "README.md",
     "physics/astrophysics/Untitled.md",
     "physics/astrophysics",
     "physics",
