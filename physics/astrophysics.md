@@ -1,5 +1,5 @@
 # Astrophysics
-::Why astrophysics?::
+Why astrophysics?
 > I am intrigued by scale of our universe, solar system, interstellar space and interaction between these bodies in space.  
 > I want to experiment with my knowledge of software development and build demos to understand these astrophysical systems.  
 

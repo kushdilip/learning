@@ -1,5 +1,5 @@
 {
-  "showGettingStartedBanner": true,
+  "showGettingStartedBanner": false,
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
@@ -10,7 +10,7 @@
   "weekly": {
     "format": "",
     "template": "",
-    "folder": "_journal",
+    "folder": "weekly",
     "enabled": true
   },
   "monthly": {

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "36afa6000b4d6dcf",
+        "id": "6ad594edf0d87e35",
         "type": "tabs",
         "children": [
           {
-            "id": "4eec3a6f5ffe79c5",
+            "id": "53e85042cef034fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Conferences.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Conferences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Conferences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Conferences.md"
+              }
             }
           },
           {
@@ -135,7 +143,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -156,38 +166,43 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "4eec3a6f5ffe79c5",
+  "active": "53e85042cef034fe",
   "lastOpenFiles": [
+    "Conferences.md",
+    "books/Tuesdays With Morrie.md",
+    "books/books-reading.md",
     "books/book summaries.md",
+    "weekly/2023-W39.md",
     "_journal/2023-W39.md",
+    "weekly/2023-W52.md",
+    "_journal",
+    "templates/weekly.md",
+    "templates",
+    "courses/LinkedIn Learning/Productivity - Prioritizing at work.md",
+    "courses/LinkedIn Learning",
+    "_journal/2024-W01.md",
+    "2023-12-28.md",
     "README.md",
     "blog/2023-10-02 Important of sleep.md",
     "blog/Readme.md",
     "WebDev/2023-09-29-Proxy-Reflect-APIs.md",
-    "_journal",
-    "Untitled.md",
+    "weekly",
     "WebDev",
     "tools/Obsidian.md",
     "tools",
-    "books/books-reading.md",
     "books/Untitled",
     "books",
     "physics/astrophysics.md",
     "blog",
     "physics/astrophysics/Untitled.md",
     "physics/astrophysics",
-    "physics",
     "courses/COURSES.md",
     "courses/online-ms-cs.md",
     "courses/computational structures - MITOCW/computational structures - MITOCW.md",
-    "courses/computational structures - MITOCW",
     "courses/compilers - stanford edx/Compilers - Standford Edx.md",
-    "courses/compilers - stanford edx",
     "courses/compiler design - udacity/Compilers - Theory and Practice - Udacity.md",
     "online-ms-cs.md",
     "COURSES.md",
-    "computational structures - MITOCW/computational structures - MITOCW.md",
-    "compilers - stanford edx/Compilers - Standford Edx.md",
-    "compiler design - udacity/Compilers - Theory and Practice - Udacity.md"
+    "computational structures - MITOCW/computational structures - MITOCW.md"
   ]
 }
